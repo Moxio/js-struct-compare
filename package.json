@@ -1,0 +1,25 @@
+{
+  "name": "js-struct-compare",
+  "version": "1.0.0-rc.1",
+  "description": "Library to compare two (JSON-serializable) structures and return their differences.",
+  "keywords": [ "compare", "diff", "struct", "structure", "json" ],
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": {
+    "name": "Moxio",
+    "email": "info@moxio.com",
+    "url": "https://www.moxio.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Moxio/js-struct-compare.git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "jest": "^25.1.0"
+  }
+}
