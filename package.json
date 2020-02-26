@@ -1,8 +1,14 @@
 {
   "name": "js-struct-compare",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "description": "Library to compare two (JSON-serializable) structures and return their differences.",
-  "keywords": [ "compare", "diff", "struct", "structure", "json" ],
+  "keywords": [
+    "compare",
+    "diff",
+    "struct",
+    "structure",
+    "json"
+  ],
   "main": "src/index.mjs",
   "scripts": {
     "test": "jest"
