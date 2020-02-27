@@ -16,7 +16,7 @@ yarn add js-struct-compare
 
 Usage
 -----
-This package is meant to be consumed as an ES module. It's default export is a
+This package is meant to be consumed as an ES module. Its default export is a
 comparison function that takes a _left_ and a _right_ instance and returns an
 array of differences between them. These can be seen as the operations needed
 to transform _left_ into _right_. An example:
