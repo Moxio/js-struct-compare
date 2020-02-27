@@ -1,3 +1,5 @@
+[![NPM version](https://img.shields.io/npm/v/js-struct-compare.svg)](https://www.npmjs.com/package/js-struct-compare)
+
 js-struct-compare
 =================
 Javascript library to compare two (JSON-serializable) structures and return their
