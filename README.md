@@ -1,3 +1,4 @@
+![CI](https://github.com/Moxio/js-struct-compare/workflows/Continuous%20Integration/badge.svg)
 [![NPM version](https://img.shields.io/npm/v/js-struct-compare.svg)](https://www.npmjs.com/package/js-struct-compare)
 
 js-struct-compare
