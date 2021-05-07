@@ -23,7 +23,7 @@ jobs:
           node-version: 12
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
 
       - name: Run test suite
         run: yarn run test
@@ -44,7 +44,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
 
       - name: Set new version
         run: npm version --allow-same-version --no-git-tag-version ${{ github.event.release.tag_name }}
