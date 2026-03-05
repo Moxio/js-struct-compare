@@ -26,6 +26,6 @@
   "dependencies": {},
   "devDependencies": {
     "esm": "^3.2.25",
-    "jest": "^25.1.0"
+    "jest": "^30.2.0"
   }
 }
