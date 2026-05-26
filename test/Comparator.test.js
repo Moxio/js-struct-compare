@@ -1,7 +1,6 @@
 /*eslint-env node, jest */
-const esmImport = require("esm")(module);
-const Comparator = esmImport("../src/index.mjs").Comparator;
-const Difference = esmImport("../src/index.mjs").Difference;
+
+import { Comparator, Difference } from "../src/index.mjs"
 
 describe("Comparator", function () {
 	let comparator = new Comparator();

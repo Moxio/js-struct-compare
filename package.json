@@ -11,7 +11,7 @@
   ],
   "main": "src/index.mjs",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": {
     "name": "Moxio",
